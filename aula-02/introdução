@@ -1,12 +1,13 @@
 #include<stdio.h>
 
-int main(){
+int main (){
     int idade = 25;
-    float autura = 1.75;
-    char letra = 'A' ;
+    float altura = 1.75;
+    char letra = 'A';
+    
+    printf("idade: %d\n", idade);
+    printf("Altura: %.2f\n", altura);
+    printf("Letra: %c\n", letra);
 
-printf("idade: %d\n", idade);
-printf("autura: %d\n", autura);
-printf("letra:%d\n", letra);
-
-}
+    return 0;
+} 
